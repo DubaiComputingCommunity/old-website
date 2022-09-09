@@ -92,7 +92,7 @@ import Nav from "../components/nav.svelte";
 
  
  @media only screen and (max-width: 600px) {
-     .btn_ctn, .side_view p{
+    .side_view p, .dsc{
         display: none;
     }
 
@@ -123,15 +123,19 @@ import Nav from "../components/nav.svelte";
     .Mobile_p{
         display: flex;
         position: absolute;
-        top: 100vh;
+        top: 85vh;
+        text-align: left;
+        line-height: 5vh;
+        font-family: var(--font_M);
+        color: rgb(43, 43, 43);
     }
 
-    .dsc{
-        width: 350px;
-        height: 350px;
-        margin-right: -6%;
-        margin-top: 50vh;
+    .btn_ctn{
+        position: absolute;
+        top: 105vh;
+        flex-direction: column;
     }
+
 
  }
 
